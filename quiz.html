@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/quiz.css">
+
+    <title>Quiz!</title>
+  </head>
+  <body>
+ <div class="container content">
+    <div class="col-md-8 offset-md-2">
+      <div class="starter">
+        <h1>Frågor angående djur!</h1>
+        <h4 class="varningtext">(OBS! VID EGET SVAR BÖRJA MED STOR BOKSTAV!)</h4>
+        <form id="quiz" name="quiz">
+          
+<p class="frågetext">1. Vilken är människans bästa vän?</p>
+<input id="textruta" type="text" name="fråga1">
+
+<p class="frågetext">2. Hur låter en katt?</p>
+<input id="flerval" type="radio" name="fråga2" value="Mjau">Mjau<br>
+<input id="flerval" type="radio" name="fråga2" value="Mooo">Mooo<br>
+<input id="flerval" type="radio" name="fråga2" value="Wof Wof">Wof Wof<br>
+<p class="frågetext">3. Hur många ben har en myra?</p>
+<input id="flerval" type="radio" name="fråga3" value="fem">Fem<br>
+<input id="flerval" type="radio" name="fråga3" value="åtta">Åtta<br>
+<input id="flerval" type="radio" name="fråga3" value="fyra">Fyra<br>
+<input id="flerval" type="radio" name="fråga3" value="Sex">Sex<br>
+<p class="frågetext">4. Vilket är det största djuret?</p>
+<input id="textruta" type="text" name="fråga4">
+<p class="frågetext">5. Hur många ögon har en giraff?</p>
+<input id="flerval" type="radio" name="fråga5" value="tre">Tre<br>
+<input id="flerval" type="radio" name="fråga5" value="två">Två<br>
+<input id="flerval" type="radio" name="fråga5" value="nio">Nio<br>
+<input id="flerval" type="radio" name="fråga5" value="sju">Sju<br>
+<p class="frågetext">6. Är vargen ett flockdjur?</p>
+<input id="flerval" type="radio" name="fråga6" value="nej">Nej<br>
+<input id="flerval" type="radio" name="fråga6" value="ja">Ja<br>
+<p class="frågetext">7. Vilken är den farligaste vilda ormen i sverige?</p>
+<input id="textruta" type="text" name="fråga7"><br>
+<p class="frågetext">8. Vilket är det snabbaste djuret i världen?</p>
+<input id="textruta" type="text" name="fråga8"><br>
+<p class="frågetext">9. Är fem myror fler än fyra elefanter?</p>
+<input id="flerval" type="radio" name="fråga9" value="hmm">Hmm<br>
+<input id="flerval" type="radio" name="fråga9" value="nej2">Nej<br>
+<input id="flerval" type="radio" name="fråga9" value="ja2">Ja<br>
+<input id="flerval" type="radio" name="fråga9" value="kanske">Kanske<br>
+<p class="frågetext">10. Hur många registrerade hundraser finns det i sverige?</p>
+<input id="textruta" type="text" name="fråga10"><br>
+
+
+<br><br>
+<input class="btn btn-primary" id="button" type="button" value="Rätta alla frågor" onclick="kollasvar()">
+
+
+        </form>
+        <div id="inskickatsvar">
+        <br>
+          <p id="antalratt"></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+  </body>
+</html>

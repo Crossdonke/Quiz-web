@@ -1,0 +1,27 @@
+.starter{
+text-align: left;
+background-color:white;
+padding: 15px;
+
+}
+.rod{
+	border:dotted red 1px;
+	
+}
+body{
+	background-color:#D048F9;
+}
+#antalrätt{
+	visibility: hidden;
+}
+.varningtext{
+	color: red;
+}
+.frågetext{
+	font-size: 20px;
+	padding-top: 10px;
+}
+#antalratt{
+	font-size: 30px;
+}
+
